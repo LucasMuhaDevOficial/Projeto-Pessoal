@@ -178,3 +178,23 @@ fieldset.grupo .campo{
 #check{
     display:inline-block;
 }
+
+const form = Document.GetelementById('form')
+const username = Document.GetelementById('Nome')
+const Sobrenome = Document.GetelementById('Sobrenome')
+const Email = Document.GetelementById('Email')
+const Button = Document.GetelementById('botão')
+
+form.addEventListener("submit", (e) => {
+ //   e.preventDefault();
+});
+
+function CheckInputs()
+    const usernamevalue = username.value
+    const emailvalue = email.value
+    const Sobrenomevalue = Sobrenome.value
+    const formvalue = arquivo.html.value( MediaKeySystemAccess) (ValidityState)
+ 
+function submit(Button){
+   alert("Formulario Finalizado!")
+}
